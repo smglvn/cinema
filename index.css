@@ -1,0 +1,56 @@
+@font-face {
+    src: url("./public/header-font.otf");
+    font-family: Halloween Party;
+}
+
+body {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+
+.header {
+    color: #000000;
+    font-size: 100px;
+    font-family: "Halloween Party", serif;
+    text-align: center;
+}
+
+.poster {
+    width: 140px;
+    height: 200px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.schedule {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    max-width: 500px;
+    width: 100%;
+    height: 100%;
+}
+
+.movie-list__entry {
+    display: flex;
+}
+
+.movie-list__entry:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.schedule__time:not(:last-child){
+    margin-right: 20px;
+}
+
+.schedule__time {
+    height: 28px;
+    margin-bottom: 20px;
+}
+
+.schedule__time-button {
+    font-size: 20px;
+}
